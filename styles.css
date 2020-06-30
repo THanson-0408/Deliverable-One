@@ -1,0 +1,183 @@
+body{
+    background-color: #fff;
+    font-family: 'Roboto', "sans-serif";
+    font-size: 14px   
+ }
+
+ header{
+    background-color: #f2f2f2;
+ }
+
+ .title{
+    cursor: pointer;
+    color: #20a8b4;
+    margin-right: auto;
+    margin-left: 5px;
+ }
+
+ .tool-bar{
+    list-style-type: none;
+    display: flex;
+    margin-left: -40px;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+ ul{
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+
+ li{
+    padding: 7px;
+    align-items: left;
+ }
+
+ .second-body{
+    margin: 100px 10px;
+    font-family: 'Roboto', serif;
+ }
+
+ img{
+    display: none;
+ }
+    
+ .code{
+    color: #ff5c0f;
+ }
+
+ .learnToCode{
+    color: #ff5c0f;
+ }
+
+ .topButton{
+    color: white;
+    background-color: #20a8b4;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    font-size: 15px;
+ }
+  
+ .topButton:hover{
+    background-color: #ff5c0f
+ }
+
+ .bottomButton{
+    color: white;
+    background-color: #20a8b4;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+ }
+
+ .bottomButton:hover{
+    background-color: #ff5c0f
+ }
+
+ a:link{
+     text-decoration: none;
+     color: #000;
+ }
+ 
+ a:visited{
+    color: black;
+ }
+
+ a:hover{
+    color: #ff5c0f;
+    text-decoration: none;
+ }
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    ul {
+      display: flex;
+      flex-wrap: space-between;
+    }
+    li {
+        width: 0 auto;
+        padding-right: 10px;
+    }
+
+
+ Header{
+    display: flex;
+    align-items: stretch;
+ }
+
+ .tool-bar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+
+ }
+
+ .title{
+    cursor: pointer;
+    color: #20a8b4;
+    background-color: #f2f2f2;
+    margin-right: auto;
+    padding-right: 100px;    
+ }
+
+ .second-body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+ }
+
+ img{
+    display: flex;
+    align-content: flex-end;
+ }
+    
+ .code{
+    color: #ff5c0f;
+ }
+
+ .learnToCode{
+    color: #ff5c0f;
+ }
+
+ body{
+    background-color: #fff;
+    font-family: 'Roboto', "sans-serif";
+    font-size: 14px;
+ }
+
+ .topButton{
+    color: white;
+    background-color: #20a8b4;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    padding: 12px;
+ }
+
+ .bottomButton{
+    color: white;
+    background-color: #20a8b4;
+    border-radius: 10px;
+    font-size: 15px;
+    width: auto;
+    padding: 12px
+ }
+ 
+
+}
