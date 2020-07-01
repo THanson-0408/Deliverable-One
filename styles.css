@@ -1,42 +1,55 @@
 body{
     background-color: #fff;
     font-family: 'Roboto', "sans-serif";
-    font-size: 14px   
+    font-size: 14px;
+    margin: 0 auto;
  }
 
  header{
     background-color: #f2f2f2;
+    margin-top: -20px;
  }
 
  .title{
     cursor: pointer;
     color: #20a8b4;
     margin-right: auto;
-    margin-left: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-top: 15px;
  }
 
  .tool-bar{
     list-style-type: none;
     display: flex;
-    margin-left: -40px;
     flex-direction: column;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
  }
 
  ul{
     justify-content: space-between;
     align-items: flex-start;
+    margin-top: -15px;
+    padding-bottom: 20px;
  }
 
  li{
+    display: flex;
     padding: 7px;
-    align-items: left;
+    margin-left: -20px;
+    align-items: flex-start;
  }
 
  .second-body{
     margin: 100px 10px;
     font-family: 'Roboto', serif;
+    padding: 5px;
+ }
+
+ h3{
+    font-size: 14px;
+    text-decoration: none;
  }
 
  img{
@@ -59,6 +72,7 @@ body{
     padding: 12px;
     width: 100%;
     font-size: 15px;
+    margin-left: -15px;
  }
   
  .topButton:hover{
@@ -101,62 +115,59 @@ body{
 
 
 @media screen and (min-width: 768px) {
-    ul {
-      display: flex;
-      flex-wrap: space-between;
-    }
-    li {
-        width: 0 auto;
-        padding-right: 10px;
-    }
+  li {
+       display: flex;
+       flex-wrap: space-around;
+       width: 0 auto;
+       margin: auto;
+       margin-right: 15px;
+ }
 
-
- Header{
+  body{
+      background-color: #fff;
+      font-family: 'Roboto', "sans-serif";
+      font-size: 14px;
+ }
+  
+  Header{
     display: flex;
     align-items: stretch;
+    margin-top: 1px;
+ }
+
+ .title{
+   cursor: pointer;
+   color: #20a8b4;
+   background-color: #f2f2f2;
+   margin-right: auto;
+   margin-left: 20px;
  }
 
  .tool-bar{
     display: flex;
     align-items: center;
     flex-direction: row;
-    align-items: center;
+    margin-right: 20px;
+    margin: auto;
+    padding: 30px;
     font-size: 18px;
-    justify-content: center;
-
- }
-
- .title{
-    cursor: pointer;
-    color: #20a8b4;
-    background-color: #f2f2f2;
-    margin-right: auto;
-    padding-right: 100px;    
  }
 
  .second-body{
     display: flex;
     flex-direction: column;
     margin-top: 150px;
+    margin-left: 30px;
+    width: 40%;
+
  }
 
  img{
     display: flex;
     align-content: flex-end;
- }
-    
- .code{
-    color: #ff5c0f;
- }
-
- .learnToCode{
-    color: #ff5c0f;
- }
-
- body{
-    background-color: #fff;
-    font-family: 'Roboto', "sans-serif";
-    font-size: 14px;
+    margin-left: auto;
+    margin-top: -315px;
+    padding-right: 150px;
  }
 
  .topButton{
@@ -170,13 +181,25 @@ body{
     padding: 12px;
  }
 
+ h2{
+    width: 75%;
+ 
+ }
+ h3{
+    width: 50%;
+    margin-top: -5px;
+ 
+ }
+
  .bottomButton{
     color: white;
     background-color: #20a8b4;
     border-radius: 10px;
     font-size: 15px;
     width: auto;
-    padding: 12px
+    padding: 12px;
+    margin-top: -10px;
+
  }
  
 
